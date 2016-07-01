@@ -1,5 +1,5 @@
 var should = require('chai').should();
-var Util = require('../sample_src/util');
+var Util = require('../src/util');
 
 describe('util-test', function() {
   var util;
