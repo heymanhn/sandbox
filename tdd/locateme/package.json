@@ -1,0 +1,29 @@
+{
+  "name": "locateme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8080 -c1",
+    "test": "karma start --reporters clear-screen,dots"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-clear-screen-reporter": "^1.0.0",
+    "karma-cli": "^0.1.2",
+    "karma-mocha": "^0.2.2",
+    "karma-sinon": "^1.0.4",
+    "karma-sinon-chai": "^1.2.0",
+    "mocha": "^2.4.5",
+    "sinon": "1.17.3",
+    "sinon-chai": "^2.8.0"
+  }
+}
